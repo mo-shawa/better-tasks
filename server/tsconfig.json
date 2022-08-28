@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "rootDir": "./",
+      "outDir": "./build",
+      "esModuleInterop": true,
+      "strict": true
+    },
+    "include": ["*.ts","**/*.ts"],
+    "exclude": ["node_modules/", "build/"],
+    "extends": "@tsconfig/recommended/tsconfig.json"   
+}
